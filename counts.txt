@@ -1,0 +1,4 @@
+   30723 biological_process.tsv
+    4519 cellular_component.tsv
+   12614 molecular_function.tsv
+   47979 name_list.tsv

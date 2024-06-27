@@ -1,0 +1,3 @@
+#!/bin/sh
+
+for file in *.tsv; do wc -l $file; done > counts.txt
