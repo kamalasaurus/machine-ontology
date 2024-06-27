@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ggrep --no-group-separator --line-buffered -w "biological_process" name_list.tsv | awk -F"\t" '{print $1}' > biological_process.tsv
+ggrep --no-group-separator --line-buffered -w "molecular_function" name_list.tsv | awk -F"\t" '{print $1}' > molecular_function.tsv
+ggrep --no-group-separator --line-buffered -w "cellular_component" name_list.tsv | awk -F"\t" '{print $1}' > cellular_component.tsv
